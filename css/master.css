@@ -8,6 +8,9 @@
 .modal-dialog{
   min-width: 75%;
   min-height: 75%;
+  color: black;
+  justify-content: center;
+  text-align:center;
 }
 
 .modal-dialog img{
@@ -31,13 +34,14 @@ body {
   margin-bottom: 60px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
 }
 
 
 /*CUSTOM*/
 
 .jumbotron{
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
   margin-top: 350px;
   background-color: transparent;
 }
@@ -103,6 +107,7 @@ a:hover {
  */
 
  .main-head{
+     text-shadow: 0 1px 3px rgba(0,0,0,.5);
    margin-top: 20px;
  }
 .main-head-brand {
@@ -161,6 +166,7 @@ a:hover {
  */
 
 .mastfoot {
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
   position: absolute;
   bottom:0;
   width: 100%;
