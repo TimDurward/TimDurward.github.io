@@ -5,59 +5,91 @@
     <title>Tim Durward: Portfolio</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="css/master.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
 
 
+      <div id="bg">
+        <img src="img/cover-img.jpg" alt="">
+      </div>
+        <div class="container">
+          <div class="main-head clearfix">
+              <h3 class="main-head-brand">My Portfolio</h3>
 
-    <div class="site-wrapper">
 
-      <div class="site-wrapper-inner">
 
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">My Portfolio</h3>
               <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Contact</a></li>
+                <ul class="nav main-head-nav">
                   <li><a href="#">Social Media</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li  class="active"><a href="#">Home</a></li>
                 </ul>
               </nav>
-            </div>
           </div>
 
-          <div class="inner cover">
-            <h1 class="cover-heading">Timothy Durward</h1>
-            <p class="lead">Epicodus Student; Developer-in-Making</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Portfolio</a>
-            </p>
+
+          <!-- Middle-content -->
+          <div class="jumbotron">
+            <h1>Timothy Durward</h1>
+            <p>Epicodus Student; Developer-in-Making</p>
+            <p><a href="#" class="btn btn-lg btn-default main-btn" type="button" data-toggle="modal" data-target="#myModal">portfolio</a></p>
           </div>
 
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Timothy A. Durward <a href="http://getbootstrap.com">LinkedIn</a>
-              </p>
-            </div>
-          </div>
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Portfolio</h4>
+      </div>
+      <div class="modal-body">
+        <div class="project-1">
+          <h3>Project One</h3>
+          <img src="http://shackmanlab.org/wp-content/uploads/2013/07/person-placeholder.jpg" alt="placeholder" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+        </div>
+        <div class="project-1">
+          <h3>Project One</h3>
+          <img src="http://shackmanlab.org/wp-content/uploads/2013/07/person-placeholder.jpg" alt="placeholder" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
         </div>
 
-      </div>
+          <!-- Footer -->
 
-    </div>
+
+
+          <div class="mastfoot">
+            <div class="main-foot-content">
+              <a href="#">
+              <i class="fa fa-linkedin fa-2x"></i>
+              <i class="fa fa-twitter fa-2x"></i>
+              <i class="fa fa-github fa-2x"></i>
+              </a>
+              <a href="#">
+              <h4>Timothy A. Durward</h4>
+              </a>
+          </div>
+          </div>
+
+
+
+
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
