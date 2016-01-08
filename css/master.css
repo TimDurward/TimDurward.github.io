@@ -24,6 +24,17 @@
   max-height: 200px;
 }
 
+ul li{
+  float: left;
+  text-align: center;
+}
+
+
+iframe{
+  width:500px;
+  height: 500px;
+  border: none;
+}
 
 *{
   margin: 0;
