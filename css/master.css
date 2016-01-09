@@ -20,11 +20,40 @@
   color: black;
 }
 
+.modal-close:hover{
+  opacity: .5;
+}
+
+.dropdown h2{
+  font-size: 30px;
+  transition: .5s;
+}
+
+.dropdown h2:hover{
+  font-size: 40px;
+  opacity: .5;
+  transition: .5s;
+}
+
+hr.soften {
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8), rgba(0,0,0,0));
+  border: 0;
+}
+
 .modal-dialog img{
   min-width: 200px;
   min-height: 200px;
   max-width: 200px;
   max-height: 200px;
+}
+
+.modal-dialog img:hover{
+  opacity: .5;
+  cursor: pointer;
 }
 
 .panel-default{
