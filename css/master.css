@@ -24,6 +24,24 @@
   max-height: 200px;
 }
 
+.panel-default>.panel-heading{
+  background-color: transparent;
+}
+
+/*.panel{
+  color: white;
+}*/
+.panel-title a{
+color: white;
+}
+
+.panel{
+  
+  background-color: transparent;
+}
+
+
+
 ul li{
   float: left;
   text-align: center;
