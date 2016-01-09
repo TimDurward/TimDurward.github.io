@@ -1,9 +1,12 @@
 /*Container*/
 .container{
   width:80%;
-  /*display: flex;*/
+
 }
 
+.social-dropdown{
+  color:red;
+}
 
 .modal-dialog{
   min-width: 75%;
@@ -36,7 +39,7 @@ color: white;
 }
 
 .panel{
-  
+
   background-color: transparent;
 }
 
@@ -165,7 +168,7 @@ a:hover {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  color: #fff;
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
