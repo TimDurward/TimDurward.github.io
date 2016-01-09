@@ -27,6 +27,10 @@
   max-height: 200px;
 }
 
+.panel-default{
+  border-color: transparent;
+}
+
 .panel-default>.panel-heading{
   background-color: transparent;
 }
@@ -89,8 +93,9 @@ body {
 
 .jumbotron{
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  margin-top: 350px;
+  /*margin-top: 350px;*/
   background-color: transparent;
+  padding-bottom: 0px;
 }
 
 /* Links */
