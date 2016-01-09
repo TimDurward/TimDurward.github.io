@@ -153,10 +153,24 @@ a:hover {
   border-width: 1.5px;
 }
 
-.fa-linkedin,
-.fa-twitter,
-.fa-github{
-  font-size: 10em;
+b .fa {
+font-size: 30px;
+transition: .5s;
+}
+
+b .fa:hover{
+  font-size: 35px;
+  transition: .5s;
+}
+
+.foot-copy a:hover{
+  color: #fff;
+  opacity: 1;
+}
+
+.fa-heart{
+  opacity: .75;
+  color: red;
 }
 
 /* Custom default button */
