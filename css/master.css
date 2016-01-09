@@ -148,6 +148,17 @@ a:hover {
   text-decoration: none;
 }
 
+.brief-sum{
+  border-bottom: dotted;
+  border-width: 1.5px;
+}
+
+.fa-linkedin,
+.fa-twitter,
+.fa-github{
+  font-size: 10em;
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
