@@ -122,10 +122,30 @@ body {
 }
 
 /* Links */
+.jumbotron a:hover{
+  opacity: .5;
+}
+
+.mastfoot a:hover{
+  opacity: .5;
+  text-decoration: none;
+}
+
+.accordion-main a:hover{
+  opacity: .5;
+  text-decoration: none;
+}
+
+.icons{
+  padding-right: 5px;
+}
+
+
 a,
 a:focus,
 a:hover {
   color: #fff;
+  text-decoration: none;
 }
 
 /* Custom default button */
