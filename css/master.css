@@ -229,12 +229,14 @@ b .fa:hover{
   text-align: center;
   /*opacity: .5;*/
 }
+
 .progress {
   opacity: .5;
-
 }
-.progress-bar-custom {
 
+::selection {
+    color: cadetblue;
+    background: gray;
 }
 
 /*
