@@ -222,6 +222,20 @@ b .fa:hover{
 }
 
 
+/*Progress Bars*/
+.progress-container{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  /*opacity: .5;*/
+}
+.progress {
+  opacity: .5;
+
+}
+.progress-bar-custom {
+
+}
 
 /*
  * Header
