@@ -90,7 +90,6 @@ iframe {
 
 * {
     margin: 0;
-/*border: 2px red solid;*/
 }
 
 html {
@@ -107,7 +106,6 @@ body {
 /*CUSTOM*/
 .jumbotron {
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
-/*margin-top: 350px;*/
     background-color: transparent;
     padding-bottom: 0;
 }
@@ -163,17 +161,14 @@ b .fa:hover {
 
 /* Custom default button */
 .btn-default,.btn-default:hover,.btn-default:focus {
-/*transition: 2s;*/
     color: #333;
     text-shadow: none;
-/* Prevent inheritence from `body` */
     background-color: #fff;
     border: 1px solid #fff;
 }
 
 /* Custom "portfolio" button animation */
 .main-btn {
-/*transition: 2s;*/
     width: 20%;
     transition: 1s;
 }
