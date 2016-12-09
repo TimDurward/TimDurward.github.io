@@ -4,13 +4,14 @@ $(document).ready(function () {
     var audio = document.createElement("audio");
     audio.crossOrigin = "anonymous";
     //Change Audio source for different tunes
-    audio.src = "https://cf-media.sndcdn.com/ovnjbvEkgklX.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vb3ZuamJ2RWtna2xYLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0ODEyNzk2ODh9fX1dfQ__&Signature=vqSbT8nNXeRcz8DX~EJjxMKWWpt7w7XUmENJAb-fg5BiEmwyygbJ2yMXb6iAUA6FMWTQ8lxl4UFLudlixYQkQb0eBiTJ55rQJ7R6qIXfY3oArfUuMfKvaiY4JetfXVWsnqYw1fgLv~3QOmGf~Kq~OQWe2ns~kpWRFQtn-DUeUlNdvRUt44OBdLhwX3V9AWOn-m0y-85Srvk0SuOh0HpQpgTLrVeXoMg2lpiQul1SxSw4sM-VIntEi8ijzVUpmr-WxBpjvcghuEtKKZF0F-FTWRGLgmXH61TJnNK2B1xrBGCAmkx04UCzYEJylylyyFArr8Qf3ffAbhrS0dPq3Slq0Q__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ";
+    // audio.src = "https://cf-media.sndcdn.com/ovnjbvEkgklX.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vb3ZuamJ2RWtna2xYLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0ODEyNzk2ODh9fX1dfQ__&Signature=vqSbT8nNXeRcz8DX~EJjxMKWWpt7w7XUmENJAb-fg5BiEmwyygbJ2yMXb6iAUA6FMWTQ8lxl4UFLudlixYQkQb0eBiTJ55rQJ7R6qIXfY3oArfUuMfKvaiY4JetfXVWsnqYw1fgLv~3QOmGf~Kq~OQWe2ns~kpWRFQtn-DUeUlNdvRUt44OBdLhwX3V9AWOn-m0y-85Srvk0SuOh0HpQpgTLrVeXoMg2lpiQul1SxSw4sM-VIntEi8ijzVUpmr-WxBpjvcghuEtKKZF0F-FTWRGLgmXH61TJnNK2B1xrBGCAmkx04UCzYEJylylyyFArr8Qf3ffAbhrS0dPq3Slq0Q__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ";
+	  audio.src = "bsdu.mp3";
     var ac = new AudioContext();
     var analyser = ac.createAnalyser();
-    
+
     //bind analyser to d3
     ac.createMediaElementSource(audio).connect(analyser).connect(ac.destination);
-    
+
 
     var frequencyData = new Uint8Array(200);
     var svgHeight = '300';
@@ -57,4 +58,3 @@ $(document).ready(function () {
     renderChart();
     audio.play();
 });
-

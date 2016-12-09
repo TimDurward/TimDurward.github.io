@@ -9,18 +9,18 @@ body {
 }
 
 
-.audio-src:before {
+/*.audio-src:before {
     font-family: 'Marcellus SC', serif;
     left: 0;
     margin-top: 100px;
     content: "Tim Durward";
-    background: rgba(255, 255, 255, 0); 
+    background: rgba(255, 255, 255, 0);
     color: rgb(26, 188, 156);
     width: 100%;
     height: 100%;
-   position: absolute; 
+   position: absolute;
    color: transparent;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
    font-size: 75px;
-}
+}*/
