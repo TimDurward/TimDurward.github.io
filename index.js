@@ -4,7 +4,7 @@ $(document).ready(function () {
     var audio = document.createElement("audio");
     audio.crossOrigin = "anonymous";
     //Change Audio source for different tunes
-    audio.src = "https://ec-media.sndcdn.com/K69OfdNtlN5w.128.mp3?f10880d39085a94a0418a7ef69b03d522cd6dfee9399eeb9a522099d6dffb834d343492e8c9f0f85b5ff5d6808eba105fd309db8a49ccac7a7c2eac791890944ae2a056c4f";
+    audio.src = "https://cf-media.sndcdn.com/ovnjbvEkgklX.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vb3ZuamJ2RWtna2xYLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0ODEyNzk2ODh9fX1dfQ__&Signature=vqSbT8nNXeRcz8DX~EJjxMKWWpt7w7XUmENJAb-fg5BiEmwyygbJ2yMXb6iAUA6FMWTQ8lxl4UFLudlixYQkQb0eBiTJ55rQJ7R6qIXfY3oArfUuMfKvaiY4JetfXVWsnqYw1fgLv~3QOmGf~Kq~OQWe2ns~kpWRFQtn-DUeUlNdvRUt44OBdLhwX3V9AWOn-m0y-85Srvk0SuOh0HpQpgTLrVeXoMg2lpiQul1SxSw4sM-VIntEi8ijzVUpmr-WxBpjvcghuEtKKZF0F-FTWRGLgmXH61TJnNK2B1xrBGCAmkx04UCzYEJylylyyFArr8Qf3ffAbhrS0dPq3Slq0Q__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ";
     var ac = new AudioContext();
     var analyser = ac.createAnalyser();
     
