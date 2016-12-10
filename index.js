@@ -52,6 +52,7 @@ $(document).ready(function () {
             .attr('fill', function (d) {
                 return 'rgb(46, 204, ' + d + ' )';
             });
+            console.log(frequencyData);
     }
 
     renderChart();
