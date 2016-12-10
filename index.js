@@ -57,4 +57,5 @@ $(document).ready(function () {
 
     renderChart();
     audio.play();
+    $("svg").css("width", "100%");
 });
