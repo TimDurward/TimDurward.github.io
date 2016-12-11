@@ -1,33 +1,28 @@
 body {
     margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.audio-src {
-    position: relative; 
-    margin-top: 200px;
-}
-
-
 .github {
     position: absolute;
-    font-family: 'Homemade Apple', cursive;
     top: 250px;
-    left: 250px;
     height: 300px;
     font-size: 20px;
     font-style: italic;
+    padding-left: 10px;
+    font-family: 'Homemade Apple', cursive;
 }
-
 a {
-text-decoration: none;
+    text-decoration: none;
 }
-
-a:hover {     
-  text-decoration: underline;
+a:hover {
+    text-decoration: underline;
 }
-
 a:visited {
     color: black;
-} 
+}
+.npm-scb-wrap {
+    margin-left: 200px;
+}
