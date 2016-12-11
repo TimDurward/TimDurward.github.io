@@ -4,7 +4,7 @@ $(document).ready(function () {
     var audio = document.createElement("audio");
     audio.crossOrigin = "anonymous";
     //Change Audio source for different tunes/can use external sources too
-	  audio.src = "bsdu.mp3";
+    audio.src = "bsdu.mp3";
     var ac = new AudioContext();
     var analyser = ac.createAnalyser();
 
@@ -57,5 +57,5 @@ $(document).ready(function () {
 
     renderChart();
     audio.play();
-    $("svg").css("width", "100%");
+    // $("svg").css("width", "100%");
 });
