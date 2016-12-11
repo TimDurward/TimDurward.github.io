@@ -1,0 +1,23 @@
+{
+  "name": "timdurward.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimDurward/timdurward.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimDurward/timdurward.github.io/issues"
+  },
+  "homepage": "https://github.com/TimDurward/timdurward.github.io#readme",
+  "dependencies": {
+    "soundcloud-badge": "^1.1.0",
+    "web-audio-analyser": "^2.0.1"
+  }
+}
